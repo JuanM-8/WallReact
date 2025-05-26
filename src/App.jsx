@@ -3,8 +3,6 @@ import Header from "./components/header";
 import Contador from "./components/contador";
 import Soon from "./components/Soon";
 
-
-
 import "./App.css";
 
 function App() {
@@ -21,8 +19,6 @@ function App() {
         <Soon />
         <Soon />
         <Soon />
-      
-
       </div>
     </>
   );
