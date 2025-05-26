@@ -1,0 +1,36 @@
+.container_contador {
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background:rgba(255, 255, 255, 0.236); 
+  backdrop-filter: shadow(13px);
+  border: 1px solid gray;
+  font-size: 20px;
+  transition: all .5s;
+  &:hover{
+backdrop-filter: blur(10px);
+transform: scale(1.02);
+  }
+}
+.buttons button{
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    &.reset{
+        background: rgba(250, 128, 114, 0.777);
+    }
+    &.decrease{
+        background: rgba(255, 0, 0, 0.555   );
+    }
+    &.increment{
+        background: rgba(144, 238, 144, 0.777);
+    }
+}
